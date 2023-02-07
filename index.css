@@ -1,0 +1,72 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#topimg{
+  height: 200 px;
+  width: 200px;
+  border: 1px solid;
+}
+.col{
+  column-count: 2;
+}
+.hobby{
+  column-count: 2;
+}
+
+.title {
+    height: 60px;
+    text-align: center;
+    background: blue;
+    color: white;
+    font-size: 20px;
+}
+
+.info{
+    position: absolute;
+    top: 115px;
+    right: 0px;
+    left: 220px;
+    line-height: 15px;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    padding:7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: circle;
+  } 
+  
+ #o,#t,#th {
+    float: left;
+    border-right:1px solid #bbb;
+    list-style: none;
+  }
+
+  li a {
+    display: block;
+  /*color: white;*/
+  list-style: circle;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  a:hover{
+    background-color: rgb(219, 213, 213);
+  }
+  .txt{
+    position:static;
+    top: 186.5%;
+    right: 0px;
+    left: 410px;
+    line-height: 15px;
+  }
